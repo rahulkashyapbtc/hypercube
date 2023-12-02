@@ -18,7 +18,8 @@
     "react-router-dom": "^6.4.2",
     "react-select": "^5.8.0",
     "axios": "1.6.2",
-    "web3": "4.2.2"
+    "web3": "4.2.2",
+    "events": "3.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
