@@ -1,0 +1,38 @@
+/* styles.css */
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotation {
+    animation: rotate 5s linear infinite;
+  }
+  
+
+
+  /* for another file SEND TRANSACTION*/
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  select option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style the selected option */
+  select option:checked {
+    background-color: #42b5eb;
+    color: #fff;
+  }    

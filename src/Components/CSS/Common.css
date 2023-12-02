@@ -1,0 +1,21 @@
+#btn{
+
+    /* background-color: rgb(65 181 235 / 8%); */
+    transition: 0.3s ease-in-out;
+    background-color: #037171;
+color: white;
+border: 0.5px solid  #037171;
+
+}
+
+#btn:hover{
+
+    background-color:#2b2a2a;
+    border: 0.5px solid #4b4949;
+
+}
+
+
+.active-link {
+    color: green; /* Change the color for the active link */
+  }
